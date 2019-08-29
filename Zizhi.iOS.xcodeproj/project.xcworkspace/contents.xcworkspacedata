@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Zizhi.iOS.xcodeproj">
+      location = "group:/Users/Alex_Randall/Projects/Zizhi.iOS/Zizhi.iOS/ItemListTableViewCell.xib">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

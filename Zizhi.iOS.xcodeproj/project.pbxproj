@@ -8,24 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		EBF5B28D2316A0AE00654C56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B28C2316A0AE00654C56 /* AppDelegate.m */; };
-		EBF5B2902316A0AE00654C56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B28F2316A0AE00654C56 /* ViewController.m */; };
+		EBF5B2902316A0AE00654C56 /* ItemListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B28F2316A0AE00654C56 /* ItemListViewController.m */; };
 		EBF5B2932316A0AE00654C56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2912316A0AE00654C56 /* Main.storyboard */; };
-		EBF5B2952316A0B100654C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2942316A0B100654C56 /* Assets.xcassets */; };
 		EBF5B2982316A0B100654C56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2962316A0B100654C56 /* LaunchScreen.storyboard */; };
 		EBF5B29B2316A0B100654C56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B29A2316A0B100654C56 /* main.m */; };
+		EBF5B2A52316A25800654C56 /* STZhongsong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2A32316A25800654C56 /* STZhongsong.ttf */; };
+		EBF5B2A62316A25800654C56 /* STSong.TTF in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2A42316A25800654C56 /* STSong.TTF */; };
+		EBF5B2A82316A5DA00654C56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2A72316A5DA00654C56 /* Assets.xcassets */; };
+		EBF5B2AD2316A92000654C56 /* UIButton+ImageTitleCentering.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2AC2316A92000654C56 /* UIButton+ImageTitleCentering.m */; };
+		EBF5B2B62316CE8A00654C56 /* XibUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2B52316CE8A00654C56 /* XibUIView.m */; };
+		EBF5B2C62317534C00654C56 /* ItemListItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2C52317534C00654C56 /* ItemListItemTableViewCell.m */; };
+		EBF5B2CA231754F900654C56 /* ReshapableImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2C9231754F900654C56 /* ReshapableImageView.m */; };
+		EBF5B2CE23178E0400654C56 /* CALayer+SketchShadow.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2CD23178E0400654C56 /* CALayer+SketchShadow.m */; };
+		EBF5B2D12317A35000654C56 /* ItemListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2D02317A35000654C56 /* ItemListTableView.m */; };
+		EBF5B2D22317A89400654C56 /* ItemListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2C72317536B00654C56 /* ItemListItemTableViewCell.xib */; };
+		EBF5B2D52317E18B00654C56 /* ImageGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */; };
+		EBF5B2E02317E36B00654C56 /* ImageGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EBF5B2882316A0AE00654C56 /* Zizhi.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zizhi.iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBF5B28B2316A0AE00654C56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EBF5B28C2316A0AE00654C56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EBF5B28E2316A0AE00654C56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EBF5B28F2316A0AE00654C56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBF5B28E2316A0AE00654C56 /* ItemListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemListViewController.h; sourceTree = "<group>"; };
+		EBF5B28F2316A0AE00654C56 /* ItemListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemListViewController.m; sourceTree = "<group>"; };
 		EBF5B2922316A0AE00654C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EBF5B2942316A0B100654C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBF5B2972316A0B100654C56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EBF5B2992316A0B100654C56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBF5B29A2316A0B100654C56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBF5B2A32316A25800654C56 /* STZhongsong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = STZhongsong.ttf; sourceTree = "<group>"; };
+		EBF5B2A42316A25800654C56 /* STSong.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = STSong.TTF; sourceTree = "<group>"; };
+		EBF5B2A72316A5DA00654C56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF5B2AB2316A92000654C56 /* UIButton+ImageTitleCentering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleCentering.h"; sourceTree = "<group>"; };
+		EBF5B2AC2316A92000654C56 /* UIButton+ImageTitleCentering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleCentering.m"; sourceTree = "<group>"; };
+		EBF5B2B42316CE8A00654C56 /* XibUIView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XibUIView.h; sourceTree = "<group>"; };
+		EBF5B2B52316CE8A00654C56 /* XibUIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XibUIView.m; sourceTree = "<group>"; };
+		EBF5B2C42317534C00654C56 /* ItemListItemTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemListItemTableViewCell.h; sourceTree = "<group>"; };
+		EBF5B2C52317534C00654C56 /* ItemListItemTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemListItemTableViewCell.m; sourceTree = "<group>"; };
+		EBF5B2C72317536B00654C56 /* ItemListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ItemListItemTableViewCell.xib; path = /Users/Alex_Randall/Projects/Zizhi.iOS/Zizhi.iOS/ItemListItemTableViewCell.xib; sourceTree = "<absolute>"; };
+		EBF5B2C8231754F900654C56 /* ReshapableImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReshapableImageView.h; sourceTree = "<group>"; };
+		EBF5B2C9231754F900654C56 /* ReshapableImageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReshapableImageView.m; sourceTree = "<group>"; };
+		EBF5B2CC23178E0400654C56 /* CALayer+SketchShadow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+SketchShadow.h"; sourceTree = "<group>"; };
+		EBF5B2CD23178E0400654C56 /* CALayer+SketchShadow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SketchShadow.m"; sourceTree = "<group>"; };
+		EBF5B2CF2317A35000654C56 /* ItemListTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemListTableView.h; sourceTree = "<group>"; };
+		EBF5B2D02317A35000654C56 /* ItemListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemListTableView.m; sourceTree = "<group>"; };
+		EBF5B2D32317E18B00654C56 /* ImageGalleryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGalleryView.h; sourceTree = "<group>"; };
+		EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryView.m; sourceTree = "<group>"; };
+		EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageGallery.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +71,7 @@
 		EBF5B27F2316A0AD00654C56 = {
 			isa = PBXGroup;
 			children = (
+				EBF5B2A72316A5DA00654C56 /* Assets.xcassets */,
 				EBF5B28A2316A0AE00654C56 /* Zizhi.iOS */,
 				EBF5B2892316A0AE00654C56 /* Products */,
 			);
@@ -58,17 +88,106 @@
 		EBF5B28A2316A0AE00654C56 /* Zizhi.iOS */ = {
 			isa = PBXGroup;
 			children = (
+				EBF5B2DB2317E20700654C56 /* Extensions */,
+				EBF5B2DA2317E1EE00654C56 /* Functions */,
+				EBF5B2D92317E1E900654C56 /* Models */,
+				EBF5B2D72317E1CC00654C56 /* Controllers */,
+				EBF5B2D62317E19500654C56 /* Views */,
+				EBF5B2A12316A23400654C56 /* Resource */,
+				EBF5B2912316A0AE00654C56 /* Main.storyboard */,
+				EBF5B2962316A0B100654C56 /* LaunchScreen.storyboard */,
 				EBF5B28B2316A0AE00654C56 /* AppDelegate.h */,
 				EBF5B28C2316A0AE00654C56 /* AppDelegate.m */,
-				EBF5B28E2316A0AE00654C56 /* ViewController.h */,
-				EBF5B28F2316A0AE00654C56 /* ViewController.m */,
-				EBF5B2912316A0AE00654C56 /* Main.storyboard */,
-				EBF5B2942316A0B100654C56 /* Assets.xcassets */,
-				EBF5B2962316A0B100654C56 /* LaunchScreen.storyboard */,
 				EBF5B2992316A0B100654C56 /* Info.plist */,
 				EBF5B29A2316A0B100654C56 /* main.m */,
 			);
 			path = Zizhi.iOS;
+			sourceTree = "<group>";
+		};
+		EBF5B2A12316A23400654C56 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2A22316A23D00654C56 /* Fonts */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		EBF5B2A22316A23D00654C56 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2A42316A25800654C56 /* STSong.TTF */,
+				EBF5B2A32316A25800654C56 /* STZhongsong.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EBF5B2D62317E19500654C56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2DE2317E23800654C56 /* ItemList */,
+				EBF5B2D82317E1DF00654C56 /* Shared */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EBF5B2D72317E1CC00654C56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B28E2316A0AE00654C56 /* ItemListViewController.h */,
+				EBF5B28F2316A0AE00654C56 /* ItemListViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		EBF5B2D82317E1DF00654C56 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2D32317E18B00654C56 /* ImageGalleryView.h */,
+				EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */,
+				EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */,
+				EBF5B2B42316CE8A00654C56 /* XibUIView.h */,
+				EBF5B2B52316CE8A00654C56 /* XibUIView.m */,
+				EBF5B2C8231754F900654C56 /* ReshapableImageView.h */,
+				EBF5B2C9231754F900654C56 /* ReshapableImageView.m */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EBF5B2D92317E1E900654C56 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EBF5B2DA2317E1EE00654C56 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		EBF5B2DB2317E20700654C56 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2AB2316A92000654C56 /* UIButton+ImageTitleCentering.h */,
+				EBF5B2AC2316A92000654C56 /* UIButton+ImageTitleCentering.m */,
+				EBF5B2CC23178E0400654C56 /* CALayer+SketchShadow.h */,
+				EBF5B2CD23178E0400654C56 /* CALayer+SketchShadow.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EBF5B2DE2317E23800654C56 /* ItemList */ = {
+			isa = PBXGroup;
+			children = (
+				EBF5B2CF2317A35000654C56 /* ItemListTableView.h */,
+				EBF5B2D02317A35000654C56 /* ItemListTableView.m */,
+				EBF5B2C42317534C00654C56 /* ItemListItemTableViewCell.h */,
+				EBF5B2C52317534C00654C56 /* ItemListItemTableViewCell.m */,
+				EBF5B2C72317536B00654C56 /* ItemListItemTableViewCell.xib */,
+			);
+			path = ItemList;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF5B2D22317A89400654C56 /* ItemListItemTableViewCell.xib in Resources */,
+				EBF5B2E02317E36B00654C56 /* ImageGallery.xib in Resources */,
 				EBF5B2982316A0B100654C56 /* LaunchScreen.storyboard in Resources */,
-				EBF5B2952316A0B100654C56 /* Assets.xcassets in Resources */,
+				EBF5B2A62316A25800654C56 /* STSong.TTF in Resources */,
 				EBF5B2932316A0AE00654C56 /* Main.storyboard in Resources */,
+				EBF5B2A52316A25800654C56 /* STZhongsong.ttf in Resources */,
+				EBF5B2A82316A5DA00654C56 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +264,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF5B2902316A0AE00654C56 /* ViewController.m in Sources */,
+				EBF5B2902316A0AE00654C56 /* ItemListViewController.m in Sources */,
+				EBF5B2C62317534C00654C56 /* ItemListItemTableViewCell.m in Sources */,
+				EBF5B2CA231754F900654C56 /* ReshapableImageView.m in Sources */,
+				EBF5B2B62316CE8A00654C56 /* XibUIView.m in Sources */,
 				EBF5B29B2316A0B100654C56 /* main.m in Sources */,
+				EBF5B2D52317E18B00654C56 /* ImageGalleryView.m in Sources */,
+				EBF5B2D12317A35000654C56 /* ItemListTableView.m in Sources */,
+				EBF5B2CE23178E0400654C56 /* CALayer+SketchShadow.m in Sources */,
+				EBF5B2AD2316A92000654C56 /* UIButton+ImageTitleCentering.m in Sources */,
 				EBF5B28D2316A0AE00654C56 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
