@@ -36,7 +36,7 @@
     
     self.itemListTableView.delegate = self;
     self.itemListTableView.dataSource = self;
-    
+        
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
@@ -69,7 +69,7 @@
     [specificCell setCoverImage:[UIImage imageNamed:@"example-pic-1"]];
     
     [specificCell setName:@"黑檀"];
-    [specificCell setSeller:@"玉簪"];
+    [specificCell setSellerName:@"玉簪"];
     [specificCell setTag:@"黑檀，玉簪，珍珠，贝壳"];
     [specificCell setPrice:@"￥168.80"];
     [specificCell setNumber:@"第 1 品"];

@@ -34,13 +34,17 @@
     if(!isInitialized){
         imageViewList = [[NSMutableArray alloc] init];
         
+        for(id view in self.mainContainer.subviews){
+            [view removeFromSuperview];
+        }
+        
         ReshapableImageView* reshapableImageView1 = [[ReshapableImageView alloc] init];
         [reshapableImageView1 setImage:[UIImage imageNamed:@"example-pic-2"]];
         [reshapableImageView1 setContentMode:UIViewContentModeScaleToFill];
         [imageViewList addObject:reshapableImageView1];
         
         ReshapableImageView* reshapableImageView2 = [[ReshapableImageView alloc] init];
-        [reshapableImageView1 setImage:[UIImage imageNamed:@"example-pic-3"]];
+        [reshapableImageView2 setImage:[UIImage imageNamed:@"example-pic-3"]];
         [reshapableImageView2 setContentMode:UIViewContentModeScaleToFill];
         [imageViewList addObject:reshapableImageView2];
         
@@ -50,7 +54,12 @@
         horizontalSpacing = 18;
         
         panGestureReconginzer = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureHandler:)];
+        [self addGestureRecognizer:panGestureReconginzer];
+        self.userInteractionEnabled = YES;
         
+        currentIndex = 0;
+        
+        [self initializeLayout];
         
         isInitialized = YES;
     }
@@ -73,11 +82,12 @@
             CGFloat virtualIndex = ((self.frame.size.width - centeredImageViewWidth)/2.0 - self.mainContainer.frame.origin.x)/(centeredImageViewWidth + horizontalSpacing);
             CGFloat ratio = fmodf(virtualIndex, 1.0);
             
-            int supposedIndex = ratio > 0.50 ? (int)(ceil(virtualIndex)):(int)(floor(virtualIndex));
+            int supposedIndex = fabs(ratio) > 0.50 ? (int)(ceil(virtualIndex)):(int)(floor(virtualIndex));
             supposedIndex = supposedIndex < 0 ? 0:supposedIndex;
             supposedIndex = supposedIndex > imageViewList.count - 1 ? (int)(imageViewList.count - 1) : supposedIndex;
             
-            CGFloat supposedPositionX = (self.mainContainer.frame.size.width - centeredImageViewWidth)/2.0 - (CGFloat)(supposedIndex * (centeredImageViewWidth + horizontalSpacing));
+            CGFloat supposedPositionX = (self.frame.size.width - centeredImageViewWidth)/2.0 - (CGFloat)(supposedIndex * (centeredImageViewWidth + horizontalSpacing));
+            
             [UIView animateWithDuration:0.4 delay:0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                 self.mainContainer.frame = CGRectMake(supposedPositionX, self.mainContainer.frame.origin.y, self.mainContainer.frame.size.width, self.mainContainer.frame.size.height);
                 
@@ -106,13 +116,13 @@
 }
 
 - (void) setCornerRadiusForImageView:(CGFloat)radius{
-    for(UIImageView* imageView in imageViewList){
-        imageView.layer.cornerRadius = radius;
+    for(ReshapableImageView* imageView in imageViewList){
+        [imageView setCornerRadius:radius];
     }
 }
 
 - (void) setShadowForImageView{
-    for(UIImageView* imageView in imageViewList){
+    for(ReshapableImageView* imageView in imageViewList){
         [imageView.layer applySketchShadow:[UIColor colorNamed:@"Shadow-Light-Blue"] alpha:1.0 x:0 y:16.0 blur:18.0 spread:0];
     }
 }
@@ -146,7 +156,7 @@
     self.mainContainer.frame = CGRectMake(xPositionOfMainContainer, yPositionOfMainContainer, widthOfMainContainer, heightOfMainContainer);
     
     for(int i = 0;i < imageViewList.count;i ++){
-        UIImageView* currentImageView = imageViewList[i];
+        ReshapableImageView* currentImageView = imageViewList[i];
         
         currentImageView.frame = CGRectMake((CGFloat)i*(centeredImageViewWidth + horizontalSpacing), 0, centeredImageViewWidth, centeredImageViewHeight);
         
@@ -156,7 +166,7 @@
     }
     
     [self setCornerRadiusForImageView:10.0];
-    [self setShadowForImageView];
+    //[self setShadowForImageView];
 }
 
 @end

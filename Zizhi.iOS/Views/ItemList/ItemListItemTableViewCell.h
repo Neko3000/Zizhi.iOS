@@ -17,7 +17,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void) setCoverImage:(UIImage*) image;
 - (void) setName:(NSString*) name;
-- (void) setSeller:(NSString*) seller;
+- (void) setSellerName:(NSString*) seller;
 - (void) setTag:(NSString*) tag;
 - (void) setPrice:(NSString*) price;
 - (void) setNumber:(NSString*) number;

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="STZhongsong.ttf">
+            <string>STZhongsong</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ItemDetailBodyBlockView" customModule="Zizhi_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="DescriptionTextView" destination="sfD-21-X5z" id="2D1-0e-bRH"/>
+                <outlet property="SellerLabel" destination="3qS-Ap-Ch4" id="9Qq-af-1as"/>
+                <outlet property="TagLabel" destination="P2p-Ek-kJj" id="tDh-jH-4qi"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="EdK-cV-kvR">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="630"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="taobao" translatesAutoresizingMaskIntoConstraints="NO" id="d9Z-3O-8E0">
+                    <rect key="frame" x="144.5" y="18" width="23" height="23"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="玉簪记" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qS-Ap-Ch4">
+                    <rect key="frame" x="177.5" y="18" width="48" height="22"/>
+                    <fontDescription key="fontDescription" name="STZhongsong" family="STZhongsong" pointSize="16"/>
+                    <color key="textColor" name="Font-LightGrey2"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="黑檀，玉簪，珍珠，贝壳，岫玉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P2p-Ek-kJj">
+                    <rect key="frame" x="110" y="62" width="154" height="15"/>
+                    <fontDescription key="fontDescription" name="STZhongsong" family="STZhongsong" pointSize="11"/>
+                    <color key="textColor" name="Font-LightGrey2"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pattern-2" translatesAutoresizingMaskIntoConstraints="NO" id="TDj-P3-df7">
+                    <rect key="frame" x="165" y="108" width="45" height="14"/>
+                </imageView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sfD-21-X5z">
+                    <rect key="frame" x="12" y="180" width="351" height="450"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <string key="text">这个簪子起源于在论坛里被种的草。
+但是偶然某天开始的吃土一个月才换回了这个小物件。
+
+在许多簪子中，这个黑檀玉兰发簪的价格属于偏高的那部分了，但是俗话说的一分价钱一分货也在她的身上体现的淋漓尽致。
+
+初到手时，最夺人眼的便是那浑黑的簪身了，在阳光下旋转玩弄一番，便让人感受到了做工的细致。
+
+然后便是那具有磨砂质感的，翠绿的玉兰花儿了。也丝毫不逊色于作为主色调的黑檀木。
+
+倘若要让我给出她最大的印象，我认为夺目又含蓄是对此最好的诠释了罢。</string>
+                    <color key="textColor" name="Font-NormalGrey2"/>
+                    <fontDescription key="fontDescription" name="STZhongsong" family="STZhongsong" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="P2p-Ek-kJj" firstAttribute="top" secondItem="EdK-cV-kvR" secondAttribute="top" constant="62" id="G0b-tJ-sM3"/>
+                <constraint firstItem="d9Z-3O-8E0" firstAttribute="top" secondItem="EdK-cV-kvR" secondAttribute="top" constant="18" id="JYJ-5P-x4c"/>
+                <constraint firstItem="TDj-P3-df7" firstAttribute="centerX" secondItem="EdK-cV-kvR" secondAttribute="centerX" id="U2E-v5-ppg"/>
+                <constraint firstItem="TDj-P3-df7" firstAttribute="top" secondItem="EdK-cV-kvR" secondAttribute="top" constant="108" id="Vv9-xK-ppc"/>
+                <constraint firstAttribute="bottom" secondItem="sfD-21-X5z" secondAttribute="bottom" id="ZWl-Mg-g4g"/>
+                <constraint firstItem="P2p-Ek-kJj" firstAttribute="centerX" secondItem="EdK-cV-kvR" secondAttribute="centerX" id="eLb-pp-OhL"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3qS-Ap-Ch4" secondAttribute="trailing" constant="20" id="hp3-f1-7fb"/>
+                <constraint firstItem="3qS-Ap-Ch4" firstAttribute="leading" secondItem="EdK-cV-kvR" secondAttribute="centerX" constant="-10" id="kdi-Tv-jjB"/>
+                <constraint firstItem="d9Z-3O-8E0" firstAttribute="trailing" secondItem="EdK-cV-kvR" secondAttribute="centerX" constant="-20" id="p5q-Yc-kSd"/>
+                <constraint firstItem="sfD-21-X5z" firstAttribute="leading" secondItem="EdK-cV-kvR" secondAttribute="leading" constant="12" id="pBl-ri-sYj"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="P2p-Ek-kJj" secondAttribute="trailing" constant="63" id="pCc-P6-5II"/>
+                <constraint firstItem="sfD-21-X5z" firstAttribute="top" secondItem="EdK-cV-kvR" secondAttribute="top" constant="180" id="qJq-R6-M0R"/>
+                <constraint firstItem="3qS-Ap-Ch4" firstAttribute="top" secondItem="EdK-cV-kvR" secondAttribute="top" constant="18" id="tad-4o-Znx"/>
+                <constraint firstAttribute="trailing" secondItem="sfD-21-X5z" secondAttribute="trailing" constant="12" id="wv8-Mm-VOr"/>
+                <constraint firstItem="P2p-Ek-kJj" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="EdK-cV-kvR" secondAttribute="leading" constant="63" id="xrg-v9-oSc"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="mmX-tf-7zv"/>
+            <point key="canvasLocation" x="71.5" y="501"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pattern-2" width="45" height="14"/>
+        <image name="taobao" width="23" height="23"/>
+        <namedColor name="Font-LightGrey2">
+            <color red="0.79215686269999996" green="0.81568627449999997" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Font-NormalGrey2">
+            <color red="0.62745098040000002" green="0.6588235294" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ItemListViewController : UIViewController
+@interface ItemListViewController : UIViewController{
+    
+}
 
 @property(nonatomic,copy) NSString* myName;
 @property NSString* myNameTwo;

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[ImageGalleryView initializeLayout]:ImageGalleryView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mainContainer.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ReshapableImageView setImage:]:ReshapableImageView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "mainImageView.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

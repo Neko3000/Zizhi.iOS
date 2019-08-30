@@ -23,7 +23,11 @@
 		EBF5B2D12317A35000654C56 /* ItemListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2D02317A35000654C56 /* ItemListTableView.m */; };
 		EBF5B2D22317A89400654C56 /* ItemListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2C72317536B00654C56 /* ItemListItemTableViewCell.xib */; };
 		EBF5B2D52317E18B00654C56 /* ImageGalleryView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */; };
-		EBF5B2E02317E36B00654C56 /* ImageGallery.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */; };
+		EBF5B2E02317E36B00654C56 /* ImageGalleryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2DF2317E36B00654C56 /* ImageGalleryView.xib */; };
+		EBF5B2E42318B55300654C56 /* ItemDetailHeaderBlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2E12318B55300654C56 /* ItemDetailHeaderBlockView.xib */; };
+		EBF5B2E52318B55300654C56 /* ItemDetailBodyBlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2E22318B55300654C56 /* ItemDetailBodyBlockView.xib */; };
+		EBF5B2E62318B55300654C56 /* ItemDetailFooterBlockView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBF5B2E32318B55300654C56 /* ItemDetailFooterBlockView.xib */; };
+		EBF5B2E92318B65700654C56 /* ItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBF5B2E82318B65700654C56 /* ItemDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +58,12 @@
 		EBF5B2D02317A35000654C56 /* ItemListTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemListTableView.m; sourceTree = "<group>"; };
 		EBF5B2D32317E18B00654C56 /* ImageGalleryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGalleryView.h; sourceTree = "<group>"; };
 		EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGalleryView.m; sourceTree = "<group>"; };
-		EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageGallery.xib; sourceTree = "<group>"; };
+		EBF5B2DF2317E36B00654C56 /* ImageGalleryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageGalleryView.xib; sourceTree = "<group>"; };
+		EBF5B2E12318B55300654C56 /* ItemDetailHeaderBlockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailHeaderBlockView.xib; sourceTree = "<group>"; };
+		EBF5B2E22318B55300654C56 /* ItemDetailBodyBlockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailBodyBlockView.xib; sourceTree = "<group>"; };
+		EBF5B2E32318B55300654C56 /* ItemDetailFooterBlockView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemDetailFooterBlockView.xib; sourceTree = "<group>"; };
+		EBF5B2E72318B65700654C56 /* ItemDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemDetailViewController.h; sourceTree = "<group>"; };
+		EBF5B2E82318B65700654C56 /* ItemDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +104,9 @@
 				EBF5B2D62317E19500654C56 /* Views */,
 				EBF5B2A12316A23400654C56 /* Resource */,
 				EBF5B2912316A0AE00654C56 /* Main.storyboard */,
+				EBF5B2E22318B55300654C56 /* ItemDetailBodyBlockView.xib */,
+				EBF5B2E32318B55300654C56 /* ItemDetailFooterBlockView.xib */,
+				EBF5B2E12318B55300654C56 /* ItemDetailHeaderBlockView.xib */,
 				EBF5B2962316A0B100654C56 /* LaunchScreen.storyboard */,
 				EBF5B28B2316A0AE00654C56 /* AppDelegate.h */,
 				EBF5B28C2316A0AE00654C56 /* AppDelegate.m */,
@@ -133,6 +145,8 @@
 		EBF5B2D72317E1CC00654C56 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				EBF5B2E72318B65700654C56 /* ItemDetailViewController.h */,
+				EBF5B2E82318B65700654C56 /* ItemDetailViewController.m */,
 				EBF5B28E2316A0AE00654C56 /* ItemListViewController.h */,
 				EBF5B28F2316A0AE00654C56 /* ItemListViewController.m */,
 			);
@@ -144,7 +158,7 @@
 			children = (
 				EBF5B2D32317E18B00654C56 /* ImageGalleryView.h */,
 				EBF5B2D42317E18B00654C56 /* ImageGalleryView.m */,
-				EBF5B2DF2317E36B00654C56 /* ImageGallery.xib */,
+				EBF5B2DF2317E36B00654C56 /* ImageGalleryView.xib */,
 				EBF5B2B42316CE8A00654C56 /* XibUIView.h */,
 				EBF5B2B52316CE8A00654C56 /* XibUIView.m */,
 				EBF5B2C8231754F900654C56 /* ReshapableImageView.h */,
@@ -248,12 +262,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBF5B2D22317A89400654C56 /* ItemListItemTableViewCell.xib in Resources */,
-				EBF5B2E02317E36B00654C56 /* ImageGallery.xib in Resources */,
+				EBF5B2E02317E36B00654C56 /* ImageGalleryView.xib in Resources */,
 				EBF5B2982316A0B100654C56 /* LaunchScreen.storyboard in Resources */,
 				EBF5B2A62316A25800654C56 /* STSong.TTF in Resources */,
 				EBF5B2932316A0AE00654C56 /* Main.storyboard in Resources */,
+				EBF5B2E52318B55300654C56 /* ItemDetailBodyBlockView.xib in Resources */,
 				EBF5B2A52316A25800654C56 /* STZhongsong.ttf in Resources */,
+				EBF5B2E62318B55300654C56 /* ItemDetailFooterBlockView.xib in Resources */,
 				EBF5B2A82316A5DA00654C56 /* Assets.xcassets in Resources */,
+				EBF5B2E42318B55300654C56 /* ItemDetailHeaderBlockView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +283,7 @@
 			files = (
 				EBF5B2902316A0AE00654C56 /* ItemListViewController.m in Sources */,
 				EBF5B2C62317534C00654C56 /* ItemListItemTableViewCell.m in Sources */,
+				EBF5B2E92318B65700654C56 /* ItemDetailViewController.m in Sources */,
 				EBF5B2CA231754F900654C56 /* ReshapableImageView.m in Sources */,
 				EBF5B2B62316CE8A00654C56 /* XibUIView.m in Sources */,
 				EBF5B29B2316A0B100654C56 /* main.m in Sources */,

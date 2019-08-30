@@ -22,15 +22,38 @@
 }
 */
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        mainImageView = [[UIImageView alloc] init];
+    }
+    
+    return self;
+}
+
+- (instancetype)initWithCoder:(NSCoder *)coder
+{
+    self = [super initWithCoder:coder];
+    if (self) {
+        mainImageView = [[UIImageView alloc] init];
+    }
+    return self;
+}
+
 - (void)awakeFromNib{
     [super awakeFromNib];
+}
+
+- (void)layoutSubviews{
+    [super layoutSubviews];
     [self setup];
 }
 
 - (void)setup{
     if(!isInitialized){
-        mainImageView = [[UIImageView alloc] init];
         mainImageView.frame = self.bounds;
+        
         mainImageView.layer.masksToBounds = YES;
         
         [self addSubview:mainImageView];

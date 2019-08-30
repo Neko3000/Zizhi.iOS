@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -149,7 +150,7 @@
                 <outlet property="nameLabel" destination="Ymg-n0-AT0" id="k5H-zq-q52"/>
                 <outlet property="numberLabel" destination="aFb-81-JAC" id="HoG-9k-kdA"/>
                 <outlet property="priceLabel" destination="N3K-5q-Kxu" id="iSe-Ky-ppR"/>
-                <outlet property="sellerLabel" destination="6wY-6Z-lOS" id="gFf-Ij-cQr"/>
+                <outlet property="sellerNameLabel" destination="6wY-6Z-lOS" id="h0Z-EU-BwP"/>
                 <outlet property="tagLabel" destination="XS9-9F-VDN" id="nzy-3P-IqT"/>
             </connections>
             <point key="canvasLocation" x="34.5" y="97.5"/>
