@@ -10,7 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ItemDetailViewController : UIViewController
+@interface ItemDetailViewController : UIViewController{
+    UISwipeGestureRecognizer* swipeGestureReconginzerUp;
+    UISwipeGestureRecognizer* swipeGestureReconginzerRight;
+    
+    BOOL toFinalStatus;
+}
 
 @end
 

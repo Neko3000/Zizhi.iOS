@@ -360,11 +360,16 @@
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="414" height="1600"/>
                     <connections>
+                        <outlet property="bodyConstraintTopSpacingToHeader" destination="1L2-FN-DcR" id="tdg-Wp-ELx"/>
                         <outlet property="editorAvatarImageView" destination="QPo-1M-SHo" id="p5S-BQ-0z1"/>
                         <outlet property="editorNameLabel" destination="2oa-d7-T3K" id="DZI-KB-JLr"/>
                         <outlet property="footerBlockShadowCaster" destination="cyu-SB-1Wu" id="NNx-LM-Cna"/>
+                        <outlet property="footerConstraintTopSpcaingToBody" destination="Rvt-0W-xud" id="etD-ZJ-z9e"/>
+                        <outlet property="headerBlock" destination="8Oq-xy-K4c" id="dsh-Cs-d4q"/>
                         <outlet property="headerBlockShadowCaster" destination="xjS-QW-566" id="Jj6-xi-arJ"/>
+                        <outlet property="headerConstraintTopSpacingToImageGalleryView" destination="bQ8-Xk-J1H" id="AwU-Om-vYX"/>
                         <outlet property="imageGalleryView" destination="RBr-T9-b02" id="TlS-m4-VMy"/>
+                        <outlet property="imageGalleryViewConstraintTop" destination="XYu-Mf-wDy" id="SHF-2w-S3e"/>
                         <outlet property="itemDescriptionTextView" destination="9ia-ee-8Wm" id="3So-vf-aNo"/>
                         <outlet property="itemNameLabel" destination="5sq-qx-ULc" id="Nzw-rh-Qji"/>
                         <outlet property="itemPriceLabel" destination="fFa-gx-gJR" id="uQw-nX-ICW"/>
@@ -373,6 +378,7 @@
                         <outlet property="itemTagLabel" destination="eEI-04-NjU" id="kev-Sp-reZ"/>
                         <outlet property="mainScrollView" destination="6cz-Nf-YIn" id="ecc-2a-q0j"/>
                         <outlet property="shareBtn" destination="js0-YW-2xu" id="Wfi-By-YzW"/>
+                        <outlet property="splitterImageView" destination="Bmm-ez-QFp" id="gZr-4s-GiG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MMn-5k-67w" userLabel="First Responder" sceneMemberID="firstResponder"/>
